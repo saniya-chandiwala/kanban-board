@@ -1,30 +1,29 @@
-# React Kanban Board
+# Kanban Task Manager
 
-## Запуск приложения
+A minimal, interactive Kanban board application built for project tracking. Designed with a clean dark & light mode interface to manage boards, lists, and tasks with clear subtask tracking.
 
-С рабочей версией проекта можно ознакомиться по ссылке: https://kdarenskii.github.io/react-kanban-task-list/  
-(приложение было опубликовано с помощью сервиса [GitHub Pages](https://pages.github.com/))
+## About the Project
+Applied to organize your tasks with the following data: title, description, subtasks, and current workflow status.
 
-#### Чтобы локально запустить приложение, необходимо:
+Tasks are organized into boards and structured columns: to-do, in progress, and completed tasks. Boards, columns, and tasks can be dynamically created, edited, or deleted to manage separate project workflows from the sidebar. 
 
-1.  Перейти в папку проекта, с помощью терминала и команды `npm i` установить все необходимые зависимости.
-2.  Командой `npm start` произвести запуск приложения.
+The list of tasks displays incremental subtask progress metrics (e.g., "1 of 3 subtasks") to track granular execution at a glance.
 
-## Используемые ресурсы и инструменты
+Active boards, column positioning, and light/dark mode configurations are saved persistently to localStorage.
 
-### Клиентская часть
+![Dashboard View](./public/interface.webp)
 
--   [React (документация)](https://reactjs.org/docs/getting-started.html)
+---
 
--   [TypeScript (документация)](https://www.typescriptlang.org/docs/)
+### To run the app locally, you need to:
+To run the app locally, go to the project folder and use your terminal to run: `npm install` 
 
--   [Tailwind CSS (документация)](https://tailwindcss.com/docs/installation)
+This installs all the necessary dependencies. Then launch the application with: `npm start`
 
--   [React Hook Form (документация)](https://react-hook-form.com/get-started/)
+---
 
--   [Yup (репозиторий)](https://github.com/jquense/yup)
+## Tech Stack
 
-## Демо:
-![kanban1](https://github.com/KDarenskii/react-kanban-task-list/assets/111995279/e078156b-241f-4bfe-864e-708512c3e5d1)
-
-![kanban2](https://github.com/KDarenskii/react-kanban-task-list/assets/111995279/778b4e19-4c13-4a28-b7da-f15079dc3dbb)
+* **Frontend Library:** React
+* **Language:** TypeScript
+* **Styling Framework:** Tailwind CSS
